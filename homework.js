@@ -106,3 +106,36 @@ Timmy.ageUp(15)
 Timmy.eat(2)
 Timmy.exercise(2)
 console.log(Timmy)
+
+class Dinner {
+    constructor(appetizer, entree, dessert){
+        this.appetizer = appetizer;
+        this.entree = entree;
+        this.dessert = dessert;
+
+    }
+
+}
+
+class Chef extends Dinner {
+    constructor(appetizer, burger, premium){
+        super(appetizer)
+        this.burger = burger;
+        this.premium = premium;
+    }
+    
+    chefMenu (appetizer, burger, premium){
+        return `Dinner tonight ${appetizer}, ${burger} and ${premium}`
+    }
+
+    Dinner1 (){
+        console.log(`sweet poatoes and fried chicken`)
+    }
+    Dinner2 (){
+        console.log("Onion rings and bobolo")
+    }
+
+    Dinner3 (){
+        console.log("yam and stew")
+    }
+}
