@@ -90,3 +90,19 @@ class Person {
 }
 
 let Timmy = new Person("Tboy", 5);
+console.log(Timmy)
+Timmy.buyHamster(hamster2)
+
+console.log(Timmy)
+Timmy.getAge(5)
+Timmy.eat(5)
+Timmy.exercise(5)
+Timmy.getAge(9)
+console.log(Timmy)
+
+let hamster3 = new Hamster ("Timmy", "Gus",)
+Timmy.buyHamster(hamster3);
+Timmy.ageUp(15)
+Timmy.eat(2)
+Timmy.exercise(2)
+console.log(Timmy)
